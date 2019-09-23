@@ -12,14 +12,7 @@ public class IceCreamShopDriver {
 		System.out.println("******** Ice Cream Shop *******");
 		
 		System.out.println("I would like to order, 2 Ice Creams:");
-
-
-		//uhhh well this just outputs the address, so im guessing you meant to do it with .getDescription. sorry for editing driver <3
-		//System.out.println(vanillaIce);
-		//System.out.println(chocIce);
-
-		//correct output
-		System.out.println(vanillaIce.getDescription());
-		System.out.println(chocIce.getDescription());
+		System.out.println(vanillaIce);
+		System.out.println(chocIce);
 	}
 }

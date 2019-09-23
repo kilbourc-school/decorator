@@ -3,7 +3,7 @@ package csce247.DecoratorHW;
 public abstract class IceCream {
 	protected String description;
 	
-	public String getDescription() {
+	public String toString() {
 		return description;
 	}
 	

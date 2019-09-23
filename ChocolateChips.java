@@ -7,8 +7,8 @@ public class ChocolateChips extends ToppingsDecorator {
 		this.iceCream = iceCream;
 	}
 	
-	public String getDescription() {
-		return iceCream.getDescription() + " + chocolate chips";
+	public String toString() {
+		return iceCream.toString() + " + chocolate chips";
 	}//adds on description
 	
 	public double getCost() {

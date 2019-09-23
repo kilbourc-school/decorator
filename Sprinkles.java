@@ -7,8 +7,8 @@ public class Sprinkles extends ToppingsDecorator {
 		this.iceCream = iceCream;
 	}
 
-	public String getDescription() {
-		return iceCream.getDescription() + " + sprinkles";
+	public String toString() {
+		return iceCream.toString() + " + sprinkles";
 	}//adds on description
 	
 	public double getCost() {

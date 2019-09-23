@@ -7,9 +7,7 @@ public class Cherry extends ToppingsDecorator {
 		this.iceCream = iceCream;
 	}
 	
-	public String getDescription() { return iceCream.getDescription() + " + a cherry on top"; }//adds on description
+	public String toString() { return iceCream.toString() + " + a cherry on top"; }//adds on description
 	
-	public double getCost() {
-		return iceCream.getCost() + 0.4;
-	}//adds cost
+	public double getCost() { return iceCream.getCost() + 0.4; }//adds cost
 }
